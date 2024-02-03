@@ -1,0 +1,56 @@
+.skill {
+    color: white;
+}
+
+.skill-title {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.skill-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 1rem;
+
+}
+
+.field {
+    flex-basis: 45%;
+    border: 2px solid #00ffff;
+    padding: 20px 40px;
+    border-radius: 20px;
+    -webkit-box-shadow: -2px 1px 36px 15px rgba(18, 230, 181, 0.27);
+    -moz-box-shadow: -2px 1px 36px 15px rgba(18, 230, 181, 0.27);
+    box-shadow: -2px 1px 36px 15px rgba(18, 230, 181, 0.27);
+
+}
+
+.field-name {
+    font-size: 28px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.skill-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skill-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #808080;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}
+
+.skill-name img {
+    width: 50px;
+    height: 50px;
+}
