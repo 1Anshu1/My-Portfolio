@@ -1,0 +1,28 @@
+.tags {
+    padding: 5px 10px;
+    border-radius: 1rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgba(34, 193, 195, 1) 21%, rgba(45, 253, 107, 1) 78%);
+}
+
+.project-desc {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+
+
+.project-img {
+    width: 100%;
+    border: 10px solid black;
+    padding: 20px;
+    border-radius: 1rem;
+    background-color: white;
+    overflow: hidden;
+}
+
+.project-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

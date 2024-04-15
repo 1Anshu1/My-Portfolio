@@ -1,0 +1,37 @@
+.navbar {
+    box-shadow: #00ffff;
+    -webkit-box-shadow: 0px 6px 24px 4px rgba(52, 52, 235, 1);
+    -moz-box-shadow: 0px 6px 24px 4px rgba(52, 52, 235, 1);
+    box-shadow: 0px 6px 24px 4px rgba(52, 52, 235, 1);
+}
+
+.navlink a {
+    text-decoration: none;
+    color: white;
+}
+
+.navlink a:active {
+    color: cyan;
+}
+
+.nav-btn {
+    color: #ffffff;
+    background-color: transparent;
+    font-size: bold;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: 2px solid #00ffff;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+.nav-btn:hover {
+    background-color: #00ffff;
+    color: black;
+    -webkit-box-shadow: -4px -1px 41px -5px rgba(35, 237, 166, 1);
+    -moz-box-shadow: -4px -1px 41px -5px rgba(35, 237, 166, 1);
+    box-shadow: -4px -1px 41px -5px rgba(35, 237, 166, 1);
+}
